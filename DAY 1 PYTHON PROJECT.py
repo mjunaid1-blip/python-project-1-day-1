@@ -30,6 +30,6 @@ if(x==length):
 
 
     Final_Passoward=rd.sample(pass_cheaker,length)
-    print("This is Your Fully Customizes Passoward :",*Final_Passoward)
+    print("This is Your Fully Customizes Passoward that Includes" ,NUM, "Numbers",CHR,"Characters and",SCHR,"Special Characters:",*Final_Passoward)
 elif(x!=length):
     print("SORRY!! Given uantities DONOT Match with the total no of passowars")
